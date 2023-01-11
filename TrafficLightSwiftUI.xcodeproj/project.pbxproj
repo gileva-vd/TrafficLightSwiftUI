@@ -11,6 +11,8 @@
 		F926DA9A296DEF6E008A4798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926DA99296DEF6E008A4798 /* ContentView.swift */; };
 		F926DA9C296DEF70008A4798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F926DA9B296DEF70008A4798 /* Assets.xcassets */; };
 		F926DA9F296DEF70008A4798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F926DA9E296DEF70008A4798 /* Preview Assets.xcassets */; };
+		F926DAA8296DF492008A4798 /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926DAA7296DF492008A4798 /* ColorCircleView.swift */; };
+		F926DAAA296E034E008A4798 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926DAA9296E034E008A4798 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F926DA99296DEF6E008A4798 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F926DA9B296DEF70008A4798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F926DA9E296DEF70008A4798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F926DAA7296DF492008A4798 /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
+		F926DAA9296E034E008A4798 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				F926DA97296DEF6E008A4798 /* TrafficLightSwiftUIApp.swift */,
 				F926DA99296DEF6E008A4798 /* ContentView.swift */,
+				F926DAA9296E034E008A4798 /* ButtonView.swift */,
+				F926DAA7296DF492008A4798 /* ColorCircleView.swift */,
 				F926DA9B296DEF70008A4798 /* Assets.xcassets */,
 				F926DA9D296DEF70008A4798 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F926DAA8296DF492008A4798 /* ColorCircleView.swift in Sources */,
 				F926DA9A296DEF6E008A4798 /* ContentView.swift in Sources */,
+				F926DAAA296E034E008A4798 /* ButtonView.swift in Sources */,
 				F926DA98296DEF6E008A4798 /* TrafficLightSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
